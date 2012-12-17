@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>search</class>
+ <widget class="QDialog" name="search">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>739</width>
+    <height>403</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>搜索</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" rowstretch="3,10">
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout_2" columnstretch="3,0,0,0,0,0,0">
+     <item row="0" column="4">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>        ISBN</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="5">
+      <widget class="QLineEdit" name="ISBN"/>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="bookName"/>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLineEdit" name="authorName"/>
+     </item>
+     <item row="1" column="4">
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>查询</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>         作者       </string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>         书名            </string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="6">
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>       分类号</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="flei"/>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <widget class="QTableWidget" name="tableWidget">
+     <column>
+      <property name="text">
+       <string>ISBN</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>书名</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>作者</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>出版社</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>价格</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>储存量</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>分类号</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
